@@ -11,7 +11,6 @@ const dataclient = port => {
             socket
                 .compress(true)
                 .emit("data", data)
-            return data
         },
 
         pull: fn => {
@@ -26,7 +25,8 @@ const dataclient = port => {
         },
 
         release: data => {
-            socket.emit("release", data)
+            socket
+                .emit("release", data)
         }
     }
 }
