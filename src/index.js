@@ -1,5 +1,5 @@
-import Dataclient from './Dataclient'
+import dataclient from './dataclient'
 
 export  {
-    Dataclient,
+    dataclient,
 }

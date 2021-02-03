@@ -1,6 +1,6 @@
 import {io} from "socket.io-client"
 
-const Dataclient = port => {
+const dataclient = port => {
     const url = `ws://localhost:${port}`
     const socket = io(url)
 
@@ -31,4 +31,4 @@ const Dataclient = port => {
     }
 }
 
-export default Dataclient
+export default dataclient
