@@ -27,6 +27,12 @@ const dataclient = port => {
         release: data => {
             socket
                 .emit("release", data)
+        },
+
+        log: data => {
+            socket
+                .compress(true)
+                .emit("log", data)
         }
     }
 }

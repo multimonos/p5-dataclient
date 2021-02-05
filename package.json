@@ -1,7 +1,7 @@
 {
-    "name": "p5-dataclient",
-    "version": "1.0.0",
-    "description": "p5 data socket client",
+    "name": "@multimonos/p5-dataclient",
+    "version": "0.1.0",
+    "description": "p5js data socket client for use with @multimonos/p5-dataserver",
     "main": "lib/index.js",
     "exports": "lib/index.modern.js",
     "module": "lib/index.module.js",
@@ -12,7 +12,7 @@
         "watch": "microbundle watch --no-sourcemap"
     },
     "keywords": [],
-    "author": "craig hopgood <searaig@gmail.com>",
+    "author": "Craig Hopgood <searaig@gmail.com> (https://multimonos.com)",
     "license": "MIT",
     "devDependencies": {
         "microbundle": "^0.13.0"
