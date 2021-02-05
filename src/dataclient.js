@@ -29,10 +29,10 @@ const dataclient = port => {
                 .emit("release", data)
         },
 
-        log: data => {
+        log: (...args) => {
             socket
                 .compress(true)
-                .emit("log", data)
+                .emit("log", args)
         }
     }
 }
