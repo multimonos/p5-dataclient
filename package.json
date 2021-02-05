@@ -1,6 +1,6 @@
 {
     "name": "@multimonos/p5-dataclient",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "p5js data socket client for use with @multimonos/p5-dataserver",
     "main": "lib/index.js",
     "exports": "lib/index.modern.js",
